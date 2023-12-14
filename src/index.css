@@ -1,0 +1,169 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Inter,Roobert,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.app-container{
+  display: grid;
+  grid-template-columns: 250px 87%;   
+  grid-template-rows: 60px auto;
+  min-height: 100vh;    
+}
+
+aside {
+  background-color: #efeff1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap:20px;
+}
+
+.title_menu-streamer{
+  line-height: 21.6px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roobert","Inter","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.title_channel-followed{
+  font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color:rgb(83, 83, 95)
+}
+
+.streamer-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar_streamer-container{
+  position: relative;
+    max-height: 100%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.avatar-streamer{
+  display: block;
+    border-radius: 9000px;
+    width: 100% !important;
+    border: none;
+    max-width: 100%;
+}
+
+.avatar-streamer-disabled{
+    opacity: 0.5;
+}
+
+.streamer-name{
+  font-weight: 600;
+  color: rgb(31, 31, 35);
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.streamer-description{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: rgb(83, 83, 95);
+  font-size: 13px;
+  line-height: 15.6px;
+}
+
+.streamer_status-container{
+  margin-left: 5px;
+}
+
+.streamer_name-container{
+  margin-left: 5px;
+}
+
+.streamer_status-icon{
+    background-color: rgb(235, 4, 0);
+    border-radius: 10px;
+    width: 0.5rem;
+    height: 0.6rem;
+    display: inline-block;
+    position: relative;
+}
+
+.streamer-viewers{
+  color: rgb(31, 31, 35);
+  font-size: 13px;
+  text-align: right;
+  width: 100%;
+}
+
+.channels-container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f7f7f8;
+  margin-left: 15px;
+}
+
+.channel_card-container{
+  margin: 5px;
+  width: 171px;
+}
+
+.channel_card-image{
+    left: 0px;
+    width: 100%;
+    top: 0px;
+    position: relative;
+}
+
+.channel_card-image-new{
+  top:-15px;
+}
+
+.channel_name-text{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: relative;
+}
+
+.channel_name-viewers{
+  font-size: 13px;
+  color: rgb(83, 83, 95);
+  font-size: font-size 13px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.genre_buttons_container{
+  position: relative;
+}
+
+.genre-button{
+  display: inline-block;
+    border-radius: 9000px;
+    font-weight: 600;
+    color: rgb(83, 83, 95);
+    background-color: rgba(173, 173, 184, 0.22);
+    border: 2px solid transparent;
+    height: 2rem;
+    max-width: 100%;
+    padding: 0px 0.8rem;
+    font-size: 12px;
+    margin-right: 3px;
+}
+
+.new_channel-label{
+  color: #000;
+  background-color: #ff75e6;
+  position: relative;
+  text-align: center;
+  border-radius: 1000px;
+  padding: 0.3rem 0.8em;
+  font-size: 75%;
+  z-index: 5;
+  margin-left: 110px;
+  top: 15px;
+}
